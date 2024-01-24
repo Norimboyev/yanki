@@ -1,0 +1,41 @@
+.catalog {
+    padding: 100px 0;
+}
+
+.catalog__wrap-title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    color: #252525;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.catalog__cards-card {
+    width: 273px;
+    height: 450px;
+    position: relative;
+}
+
+.catalog__cards-card-link {
+    width: 273px;
+    color: transparent;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.3s;
+    padding: 9px 0;
+    text-align: center;
+}
+
+.catalog__cards-card-link:hover {
+    background: #E0BEA2BF;
+    color: var(--white);
+}
+
+.catalog__cards {
+    display: flex;
+    gap: 15px;
+}
